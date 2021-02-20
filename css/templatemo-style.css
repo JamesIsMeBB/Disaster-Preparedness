@@ -620,6 +620,12 @@ hr.hr-text::before {
     transform: translate(-50%, -50%);
 }
 
+.tm-hero-subtitle
+{
+	font-size: 1.7rem;
+}
+
+
 .tm-visible-text-shadow
 {
 	text-shadow:
@@ -629,5 +635,13 @@ hr.hr-text::before {
     0 -0.07em black
 }
 
+.tm-visible-text-shadow-less
+{
+	text-shadow: black 0px 0px 10px;
+}
 
+.tm-highlight
+{
+	background-color: rgba(0, 0, 0, 0.25);
+}
 
