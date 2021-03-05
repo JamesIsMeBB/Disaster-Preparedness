@@ -599,15 +599,39 @@ p {
   }
 }
 
-hr.hr-text {
-  position: relative;
+hr.hr-text 
+{
+	position: relative;
     border: none;
     height: 1px;
     background: #999;
 }
 
-hr.hr-text::before {
+hr.hr-text::before 
+{
     content: attr(data-content);
+    display: inline-block;
+    background: #fff;
+    font-size: 2.6rem;
+    color: #3496d8;
+    border-radius: 30rem;
+    padding: 0.2rem 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+hr.hr-text2 
+{
+	position: relative;
+    border: none;
+    height: 1px;
+    background: #999;
+}
+
+hr.hr-text2::before 
+{
     display: inline-block;
     background: #fff;
     font-size: 2.6rem;
@@ -642,6 +666,6 @@ hr.hr-text::before {
 
 .tm-highlight
 {
-	background-color: rgba(0, 0, 0, 0.25);
+	background-color: rgba(0, 0, 0, 0.40);
 }
 
